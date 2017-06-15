@@ -9,7 +9,7 @@ export const allReference = (references) => {
 
 export const fetchReference = ( classReference = 0 ) => {
 
-  let url = `http://localhost/~pram/MobileComputing/public/api/references/get/${classReference}`;
+  let url = `http://128.199.207.199/api/references/get/${classReference}`;
 
   return (dispatch) => {
         fetch(url)
